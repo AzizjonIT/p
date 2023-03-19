@@ -1,0 +1,101 @@
+p{
+    color: darkgray;
+    background-color: blueviolet;
+    text-align: center;
+    width: 700px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.p{
+    padding-top: 200px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+p:hover{
+    border: 6px;
+    border-color: black;
+    border-style: solid;
+    transition: 1s;
+    color: aliceblue;
+    background-color: rgb(42, 42, 152);
+}
+p:hover:active{
+border: 5px;
+border-color: rgb(42, 42, 152);
+border-style: solid;
+background-color: thistle;
+color:red;
+}
+@media(max-width:375px){
+    body{
+        display: block;
+    }
+    p{
+        width: 200px;
+        height: 110px;
+        color: darkgray;
+        background-color: blueviolet;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    .p{
+        padding-top: 20px;
+        padding-left: 75px ;
+        padding-right: 75px;
+        display: block;
+    }
+    p:hover{
+        border: 6px;
+        border-color: black;
+        border-style: solid;
+        transition: 1s;
+        color: aliceblue;
+        background-color: rgb(42, 42, 152);
+    }
+    p:hover:active{
+    border: 5px;
+    border-color: rgb(42, 42, 152);
+    border-style: solid;
+    background-color: thistle;
+    color:red;
+    }
+}
+@media(max-width:420px){
+    body{
+        display: block;
+    }
+    p{
+        width: 250px;
+        height: 120px;
+        color: darkgray;
+        background-color: blueviolet;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    .p{
+        padding-top: 50px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    p:hover{
+        border: 6px;
+        border-color: black;
+        border-style: solid;
+        transition: 1s;
+        color: aliceblue;
+        background-color: rgb(42, 42, 152);
+    }
+    p:hover:active{
+    border: 5px;
+    border-color: rgb(42, 42, 152);
+    border-style: solid;
+    background-color: thistle;
+    color:red;
+    }
+}
